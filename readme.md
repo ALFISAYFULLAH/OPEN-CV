@@ -1,32 +1,24 @@
-Deskripsi Proyek
-Proyek ini merupakan aplikasi pengolahan citra menggunakan OpenCV dan Python. Terdapat berbagai skrip untuk memproses citra dan hasil output seperti citra yang diubah ukurannya, diblur, diberi tepi, dan diberi ambang batas.
-File yang Terdapat
+Project Description
+This project appears to be an image processing application using OpenCV and Python. It includes various image manipulation scripts and outputs such as resized, blurred, edged, and thresholded images.
+Files
 
-main.py: Skrip utama untuk pengolahan citra.
-camera-test.py: Skrip untuk pengujian terkait kamera.
-output.mp4: File output video.
-cropped.jpg, gray.jpg, hsv.jpg, main.jpg, resized.jpg, resume.png, hari_3_blur.jpg, edges.jpg, image.jpg, main.png, threshold.jpg, pic.jpg: File citra yang telah diproses.
-.gitignore: File untuk mengecualikan file tertentu dari kontrol versi.
-venv/: Direktori lingkungan virtual.
+main.py: Main script for image processing.
+camera-test.py: Script for camera-related testing.
+output.mp4: Video output file.
+cropped.jpg, gray.jpg, hsv.jpg, main.jpg, resized.jpg, resume.png, hari_3_blur.jpg, edges.jpg, image.jpg, main.png, threshold.jpg, pic.jpg: Processed image files.
+.gitignore: File to exclude certain files from version control.
+venv/: Virtual environment directory.
 
-Penyiapan
+Setup
 
-Pastikan Python dan OpenCV sudah terinstal.
-Klon repository dan masuk ke direktori proyek.
-Aktifkan lingkungan virtual: source venv/bin/activate (Linux/Mac) atau venv\Scripts\activate (Windows).
-Instal dependensi jika ada (contoh: pip install opencv-python).
+Ensure Python and OpenCV are installed.
+Clone the repository and navigate to the project directory.
+Activate the virtual environment: source venv/bin/activate (Linux/Mac) or venv\Scripts\activate (Windows).
+Install dependencies if any (e.g., pip install opencv-python).
 
-Cara Penggunaan
-Jalankan main.py untuk memproses citra. Modifikasi skrip sesuai kebutuhan untuk menyesuaikan parameter pengolahan citra.
-Penjelasan dengan Gambar
-Berikut adalah tampilan lingkungan proyek di editor kode (contoh: Visual Studio Code) yang menunjukkan struktur file dan output terminal:
+Usage
+Run main.py to process images. Modify the script to adjust image processing parameters as needed.
+Notes
 
-
-Kiri: Panel eksplorasi menunjukkan file seperti main.py, citra yang diproses, dan file konfigurasi.
-Kanan Atas: File readme.md yang sedang diedit.
-Kanan Bawah: Terminal menunjukkan error terkait fungsi resize di main.py (baris 5), yang perlu diperbaiki.
-
-Catatan
-
-Proyek ini mengalami error asersi terkait fungsi resize. Periksa fungsi tersebut di main.py (baris 5) untuk debugging.
-Pastikan semua file citra tersedia di direktori proyek.
+The project seems to encounter an assertion error related to image resizing. Check the resize function in main.py (line 5) for debugging.
+Ensure all image files are available in the project directory.
